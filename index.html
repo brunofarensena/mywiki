@@ -1,13 +1,239 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Wiki</title>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.min.css">
+
 </head>
+
+
+
 <body>
-    
+    <div>
+        <ul id="slide-out" class="side-nav">
+            <li>
+                <div class="user-view">
+                    <div class="background blue">
+
+                    </div>
+                    <a>
+                        <img class="circle" src="assets/imgs/mypic.jpg">
+                    </a>
+                    <a>
+                        <span class="white-text name">Bruno Farensena</span>
+                    </a>
+                </div>
+            </li>
+            <li>
+                <a class="waves-effect modal-trigger" href="#modal1">What is NPM?</a>
+            </li>
+            <li>
+                <a class="waves-effect modal-trigger" href="#modal2">Diference betwen TypeScript and JavaScript?</a>
+            </li>
+            <li>
+                <a class="waves-effect modal-trigger" href="#modal3">What is ES6?</a>
+            </li>
+            <li>
+                <a class="waves-effect modal-trigger" href="#modal4">Package.json Structure</a>
+            </li>
+            <li>
+                <a class="waves-effect modal-trigger" href="#modal5">What is design patterns?</a>
+            </li>
+            <li>
+                <a class="waves-effect modal-trigger" href="#modal6">What is regular expression?</a>
+            </li>
+            <li>
+                <div class="divider"></div>
+            </li>
+
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse">
+            <i class="material-icons">menu</i>
+        </a>
+
+    </div>
+
+
+    <div class="container">
+        <h2 class="header">MyWiki</h2>
+        <p class="grey-text text-darken-3 lighten-3">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+        <ul class="collapsible" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">filter_drama</i>What is NPM?</div>
+                <div class="collapsible-body">
+                    <div class="container">
+                        <img src="assets/imgs/NPMpng.png">
+                    </div>
+                    <span>Lorem ipsum dolor sit amet.</span>
+
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">filter_drama</i>Diference between TypeScript and JavaScript?</div>
+                <div class="collapsible-body">
+                    <div class="container">
+                        <img src="assets/imgs/typescript-vs-javascript.png">
+                    </div>
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">filter_drama</i>What is ES6?</div>
+                <div class="collapsible-body">
+                    <div class="container">
+                        <img src="assets/imgs/es6.jpeg">
+                    </div>
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">filter_drama</i>Package.json Structure</div>
+                <div class="collapsible-body">
+                    <div class="container">
+                        <img src="assets/imgs/package-json.png">
+                    </div>
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">filter_drama</i>What is design patterns?</div>
+                <div class="collapsible-body">
+                    <div class="container">
+                        <img src="assets/imgs/designpatterns.jpg">
+                    </div>
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+            </li>
+            <li>
+                <div class="collapsible-header">
+                    <i class="material-icons">filter_drama</i>What is regular expression?</div>
+                <div class="collapsible-body">
+                    <div class="container">
+                        <img src="assets/imgs/regex.jpg">
+                    </div>
+
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>What is NPM?</h4>
+            <img src="assets/imgs/NPMpng.png">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <h4>Diference between TypeScript and JavaScript?</h4>
+            <img src="assets/imgs/typescript-vs-javascript.png">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <h4>What is ES6?</h4>
+            <img src="assets/imgs/es6.jpeg">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+    </div>
+
+    <div id="modal4" class="modal">
+        <div class="modal-content">
+            <h4>Package.json Structure</h4>
+            <img src="assets/imgs/package-json.png">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+    </div>
+
+    <div id="modal5" class="modal">
+        <div class="modal-content">
+            <h4>What is design patterns?</h4>
+            <img src="assets/imgs/designpatterns.jpg">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+    </div>
+
+    <div id="modal6" class="modal">
+        <div class="modal-content">
+            <h4>What is regular expression?</h4>
+            <img src="assets/imgs/regex.jpg">
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+        </div>
+    </div>
+
 </body>
-<footer></footer>
+
+<footer class="modal-footer blue">
+    <div class="container blue">
+        <div class="row">
+            <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                </p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
 </html>
+
+
+
+<script> 
+
+    $('.button-collapse').sideNav({
+        menuWidth: 500,
+        closeOnClick: true
+    }
+    );
+
+    $(document).ready(function () {
+        $('.modal').modal();
+    });
+
+</script>

@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/brunofarensena/mywiki/issues"
   },
-  "homepage": "https://github.com/brunofarensena/mywiki#readme"
+  "homepage": "https://github.com/brunofarensena/mywiki#readme",
+  "dependencies": {
+    "materialize-css": "^0.100.2"
+  }
 }
