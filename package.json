@@ -22,5 +22,9 @@
   "homepage": "https://github.com/brunofarensena/mywiki#readme",
   "dependencies": {
     "materialize-css": "^0.100.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
   }
 }
