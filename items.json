@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "title": "What is NPM?",
+            "name": "NPM",
+            "image": "assets/imgs/NPMpng.png",
+            "description": " NPM means Node Package Manager, is a online repository for open source code in node.js, NPM also is utility that interacts with the online repository where it helps in the packages installation, version management and dependency management."
+        },
+        {
+            "title": "Diference betwen TypeScript and JavaScript?",
+            "name": "TypeScript VS JavaScript",
+            "image": "assets/imgs/typescript-vs-javascript.png",
+            "description": ""
+        },
+        {
+            "title": "What is ES6?",
+            "name": "ES6",
+            "image": "assets/imgs/es6.jpeg",
+            "description": "<p>ES6 is the new version of javascript. Javascript is the programming language that is usually called but the trademark name after oracle purchase Sun is ES6. the official name of the programming languageis ECMAScript.<br><br><b>News About ES6</b><br> New ways to declare variables like let and const.<br> Function parameter like default parameters, rest parameters.<br> Functional Programming like arrow functions, destructuring.<br> Object orientation.</p>"
+        },
+        {
+            "title": "Package.json Structure",
+            "name": "Package.json",
+            "image": "assets/imgs/package-json.png",
+            "description": "Package.json is responsible for describe the hole project, inform the which version is your npm, project version, production and development dependencies, project url, standard scripts like how to start and test and others details about the project."
+        },
+        {
+            "title": "What is design patterns?",
+            "name": "Design Patterns",
+            "image": "assets/imgs/designpatterns.jpg",
+            "description": "Desing patern is a set of good practices that must be followed during software development. This set aims to establish code standards, test routines, and other artifacts necessary for the complete development cycle. This cycle is basically composed of: survey, analysis, development, testing, approval and support"
+        },
+        {
+            "title": "What is regular expression?",
+            "name": "RegEx",
+            "image": "assets/imgs/regex.jpg",
+            "description": ""
+        }
+    ]
+}

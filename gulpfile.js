@@ -1,10 +1,11 @@
 var gulp = require('gulp');
 var connect = require('gulp-connect');
-var files = ['index.html', 'style.css'];
+var files = ['index.html', 'assets/css/**/*.css', 'assets/scripts/**/*.js'];
 
 gulp.task('files', function () {
     gulp.src(files).pipe(connect.reload());
 });
+
 
 gulp.task('watch', function () {
     gulp.watch(files, ['files']);
